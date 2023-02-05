@@ -1,0 +1,4 @@
+{
+  "extends": "@ntn-ui/ts-config/base.json",
+  "include": ["src"],
+}

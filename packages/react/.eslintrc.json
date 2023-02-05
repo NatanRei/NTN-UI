@@ -1,0 +1,3 @@
+{
+    "extends": "@ntn-ui/eslint-config"
+}
