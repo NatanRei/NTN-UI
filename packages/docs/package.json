@@ -16,7 +16,7 @@
     "@storybook/addon-essentials": "^6.5.16",
     "@storybook/addon-interactions": "^6.5.16",
     "@storybook/addon-links": "^6.5.16",
-    "@storybook/builder-vite": "^0.4.0",
+    "@storybook/builder-vite": "^0.3.0",
     "@storybook/mdx2-csf": "^0.0.3",
     "@storybook/react": "^6.5.16",
     "@storybook/testing-library": "^0.0.13",
@@ -29,6 +29,9 @@
     "@ntn-ui/eslint-config": "*",
     "@ntn-ui/react": "*",
     "@ntn-ui/tokens": "*",
-    "@vitejs/plugin-react": "^3.1.0"
+    "@ntn-ui/ts-config": "*",
+    "@vitejs/plugin-react": "^3.1.0",
+    "phosphor-react": "^1.4.1",
+    "polished": "^4.2.2"
   }
 }

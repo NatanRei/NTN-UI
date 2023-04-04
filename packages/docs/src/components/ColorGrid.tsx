@@ -1,4 +1,5 @@
 import { colors } from '@ntn-ui/tokens'
+import { getContrast } from 'polished'
 
 export function ColorGrid() {
   return Object.entries(colors).map(([key, color]) => {
@@ -9,7 +10,7 @@ export function ColorGrid() {
             display: 'flex',
             justifyContent: 'space-between',
             fontFamily: 'monospace',
-            color: '#fff',
+            color: getContrast(color, '#fff') < 3.5 ? '#000' : '#fff',
           }}
         >
           <strong>${key}</strong>
