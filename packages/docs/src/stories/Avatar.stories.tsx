@@ -9,6 +9,13 @@ export default {
     src: 'https://github.com/natanrei.png',
     alt: 'Natan Rei',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
