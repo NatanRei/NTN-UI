@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && start-storybook -p 6006",
-    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && build-storybook"
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && build-storybook",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "@storybook/builder-vite": "^0.3.0",
     "@storybook/mdx2-csf": "^0.0.3",
     "@storybook/react": "^6.5.16",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/testing-library": "^0.0.13",
     "babel-loader": "^8.3.0",
     "react": "^18.2.0",
@@ -30,6 +32,7 @@
     "@ntn-ui/react": "*",
     "@ntn-ui/tokens": "*",
     "@ntn-ui/ts-config": "*",
+    "@storybook/addon-a11y": "6.5.15",
     "@vitejs/plugin-react": "^3.1.0",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2"
