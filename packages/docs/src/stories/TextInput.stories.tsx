@@ -5,7 +5,17 @@ import { Box, Text, TextInput, TextInputProps } from '@ntn-ui/react'
 export default {
   title: 'Form/Text Input',
   component: TextInput,
-  args: {},
+  args: {
+    inputSize: 'md',
+  },
+  argTypes: {
+    inputSize: {
+      options: ['sm', 'md'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+  },
   decorators: [
     (Story) => {
       return (
@@ -24,6 +34,7 @@ export default {
 export const Primary: StoryObj<TextInputProps> = {
   args: {
     placeholder: 'Type of name',
+    inputSize: 'sm',
   },
 }
 

@@ -1,5 +1,11 @@
 # @ntn-ui/react
 
+## 4.0.0
+
+### Major Changes
+
+- adjust property inputSize in textInput component
+
 ## 3.0.0
 
 ### Major Changes
