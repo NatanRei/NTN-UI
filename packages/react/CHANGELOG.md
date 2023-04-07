@@ -1,5 +1,11 @@
 # @ntn-ui/react
 
+## 4.0.1
+
+### Patch Changes
+
+- Little adjust in color of placeholder in TextInput Component'
+
 ## 4.0.0
 
 ### Major Changes
