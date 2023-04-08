@@ -1,5 +1,11 @@
 # @ntn-ui/react
 
+## 4.0.2
+
+### Patch Changes
+
+- Translate multistep component
+
 ## 4.0.1
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @ntn-ui/tokens
 
+## 3.0.1
+
+### Patch Changes
+
+- Translate multistep component
+
 ## 3.0.0
 
 ### Major Changes
